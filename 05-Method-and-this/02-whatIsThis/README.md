@@ -9,5 +9,5 @@ function makeUser() {
   };
 }
 let user = makeUser();
-console.log(user.ref.name); // *
+console.log(user.ref.name); // * Joe เพราะ this in FN makeUser คือ window และ var name = joe เป็น hoisting ใน window 
 ```

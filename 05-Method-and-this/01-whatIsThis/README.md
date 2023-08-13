@@ -8,5 +8,4 @@ let user = {
   }
 };
 
-(user.sayHi)(); // *
-```
+(user.sayHi)(); // * John เพราะ this นที่นี้คือ user เหมือนเราใช้คำสั่ง user.name เลยได้ value ค่า John !!

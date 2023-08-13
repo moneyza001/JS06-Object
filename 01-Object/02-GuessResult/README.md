@@ -7,8 +7,8 @@ const user = {
 };
 
 user.isActive = false;
-console.log(user); // *
+console.log(user); // * แสดงเป็น Object
 user = {};
-console.log(user); // **
+console.log(user); // ** error เพราะไม่สามารถเปลี่ยนแปลงค่าในตัวแปล const ได้
 
 ```
