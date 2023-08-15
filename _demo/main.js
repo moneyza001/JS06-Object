@@ -145,16 +145,31 @@
 //#################    LOOP   ############################################/
 //##################################//###################################//
 //###################################//###################################/
-const user = {
-    firstName: 'Codecamp',
-    lastName : 'Software Park',
-    age : 15,
-};
+// const user = {
+//     firstName: 'Codecamp',
+//     lastName : 'Software Park',
+//     age : 15,
+// };
 
-// For IN : Loop throung Object
-// SYNTAX : for (let <key_variable> in <obj>)
-for (let key in user) {
-    console.log(key)
-    console.log(user[key])
+// // For IN : Loop throung Object
+// // SYNTAX : for (let <key_variable> in <obj>)
+// for (let key in user) {
+//     console.log(key)
+//     console.log(user[key])
 
-}
+// }
+
+// BuiltIn
+/*
+    console
+    Math
+    Date
+    Formdata
+*/
+console.log('TEST')
+
+Math.max(5,4,2,20); //20
+const now = new Date();
+
+const formData = new FormData()
+formData.append('key','value')
